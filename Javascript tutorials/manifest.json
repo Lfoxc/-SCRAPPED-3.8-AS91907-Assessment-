@@ -5,6 +5,10 @@
     "version": "1.0",
     "content_scripts": [{
       "matches": ["https//www.google.com/*"]
+<<<<<<< HEAD
       "css": ["main.css"]
+=======
+      "css": ["s1.css"]
+>>>>>>> 96b41a9b5c2bc51e0ee691da4732dff589d3eafe
       }]
 }
