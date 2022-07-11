@@ -1,0 +1,12 @@
+{
+  "name": "Adblocker",
+  "version": "1.0",
+  "description": "Say goodbye to pesky Youtube ads.",
+  "permissions": ["declarativeNetRequest", "<all_urls>"],
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "manifest_version": 2
+}
