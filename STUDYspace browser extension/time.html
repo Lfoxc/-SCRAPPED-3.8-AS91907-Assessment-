@@ -5,21 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="main.css">
+  <link href="/css/fontawesome.css" rel="stylesheet">
+  <link href="/css/all.min.css" rel="stylesheet">
   <title>Time Selection</title>
 </head>
 <body>
-  <h2 class = "study">STUDYspace</h2>
+  <div class = "heading">
+    <a href="popup.html"><i class="far fa-solid fa-arrow-left"></i></a>
+    <i class="fas fa-solid fa-circle-question"></i>
+    <h2 class = "study">STUDYspace</h2>
+  </div>
 
-  <div class = "time">
+  <section class = "time">
     <p>Choose a time</p>
+
+    <div class = "updown" id = "up">
+      <i class="fan fa-solid fa-angle-up"></i>
+      <i class="fan fa-solid fa-angle-up"></i>
+    </div>
 
     <h1>00:00</h1>
 
+    <div class = "updown" id = "down">
+      <i class="fan fa-solid fa-angle-down"></i>
+      <i class="fan fa-solid fa-angle-down"></i>
+      <br>
+    </div>
+
     <p>You will be notified when your time is up!</p>
     <br>
-    <a href="site.html" class = "button" id = "next">Next</a>
-    <p id = "space">Click on the ? for assistance.</p>
-  </div>
+    <a href="notif.html" class = "button" id = "next">Next</a>
+    <p id = "space">Click on the <i class="fas fa-solid fa-circle-question"></i> for assistance.</p>
+  </section>
 
 
 
