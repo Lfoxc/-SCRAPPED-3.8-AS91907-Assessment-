@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "TEST",
+  "version": "1.0",
+
+  "action": {
+    "default_popup": "pop.html"
+  },
+
+  "permissions":["activeTab"],
+  "background.service_worker": ["test.js"]
+}
