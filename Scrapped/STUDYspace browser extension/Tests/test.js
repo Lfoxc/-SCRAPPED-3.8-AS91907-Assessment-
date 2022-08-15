@@ -14,10 +14,10 @@ function Checkweb() {
 function Checkinput() {
   Checkweb();
   if (WebsiteURL.includes("youtube.com")) {
-    alert("You are in Youtube!")
+    alert(`You are in ${WebsiteHost}. This website should be blocked.`)
   }
 
   else {
-    alert('Oof')
+    alert(`You are in ${WebsiteHost}. This website is not blocked.`)
   }
 }
